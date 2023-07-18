@@ -35,6 +35,6 @@ fetch("../questions.json")
         return output;
     })
     .then(html => {
-        document.querySelector("#questionnaire").innerHTML = output;
+        document.querySelector("#questionnaire").innerHTML = html;
         hljs.highlightAll();
     });
