@@ -53,7 +53,8 @@ body {
 
 h1 {
     font-size: 6rem;
-    line-height: 15rem;
+    line-height: 4.5rem;
+    margin: 85px 0;
     opacity: .75;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
 }
@@ -156,8 +157,13 @@ p {
     cursor: pointer;
 }
 
+.question .header button.expand::before,
 .question .header button.expand::after {
     width: 80px;
+    flex-shrink: 0;
+}
+
+.question .header button.expand::after {
     content: "?";
     text-align: center;
     font-size: 1.5rem;
@@ -165,7 +171,6 @@ p {
 }
 
 .question .header button.expand::before {
-    width: 80px;
     content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,1%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
     opacity: .5;
     transform: rotate(90deg);
@@ -465,6 +470,7 @@ button.submit-all:active {
     align-items: flex-end;
     justify-content: center;
     gap: 5px;
+    margin-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
     transition: all .05s linear;
 }
@@ -510,12 +516,6 @@ button.submit-all:active {
     inline-size: 100%;
     block-size: 100%;
     stroke-linecap: round;
-}
-
-@media (hover: none) {
-    .theme-toggle {
-        --size: 48px;
-    }
 }
 
 .sun-and-moon> :is(.moon, .sun, .sun-beams) {
@@ -594,4 +594,12 @@ button.submit-all:active {
         transition-delay: .25s;
         transition-duration: .5s;
     }
+}
+
+@media (hover: none) {
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
 }
