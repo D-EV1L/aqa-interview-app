@@ -12,7 +12,7 @@ function createId(length) {
 
 var template = document.querySelector('#questionnaire .question-wrapper').outerHTML;
 
-fetch("../questions.json")
+fetch("./questions.json")
     .then(response => response.text())
     .then(jsonString => JSON.parse(jsonString))
     .then(questions => {
