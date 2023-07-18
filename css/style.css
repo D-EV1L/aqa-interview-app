@@ -374,7 +374,6 @@ p {
     cursor: pointer;
 
     touch-action: manipulation;
-    -webkit-tap-highlight-color: transparent;
     outline-offset: 5px;
 
     border-radius: 50%;
@@ -409,7 +408,6 @@ button.submit-all {
     padding: 12px 24px;
     cursor: pointer;
     touch-action: manipulation;
-    -webkit-tap-highlight-color: transparent;
     outline-offset: 5px;
     border-radius: 5px;
     display: flex;
