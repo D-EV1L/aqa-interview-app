@@ -240,7 +240,6 @@ p {
     cursor: pointer;
 
     touch-action: manipulation;
-    -webkit-tap-highlight-color: transparent;
     outline-offset: 5px;
 
     border-radius: 5px;
