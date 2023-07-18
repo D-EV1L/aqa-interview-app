@@ -1,0 +1,168 @@
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1.5em;
+    font-size: 14px;
+    border-radius: 14px;
+    color: var(--theme-color);
+    background-color: var(--theme-bg-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Light theme */
+
+[data-theme="light"] .hljs-subst,
+[data-theme="light"] .hljs-title {
+    font-weight: 400;
+    color: #000
+}
+
+[data-theme="light"] .hljs-comment,
+[data-theme="light"] .hljs-quote {
+    color: grey;
+    font-style: italic
+}
+
+[data-theme="light"] .hljs-meta {
+    color: olive
+}
+
+[data-theme="light"] .hljs-tag {
+    background: #efefef
+}
+
+[data-theme="light"] .hljs-keyword,
+[data-theme="light"] .hljs-literal,
+[data-theme="light"] .hljs-name,
+[data-theme="light"] .hljs-section,
+[data-theme="light"] .hljs-selector-class,
+[data-theme="light"] .hljs-selector-id,
+[data-theme="light"] .hljs-selector-tag,
+[data-theme="light"] .hljs-type {
+    font-weight: 700;
+    color: navy
+}
+
+[data-theme="light"] .hljs-attribute,
+[data-theme="light"] .hljs-link,
+[data-theme="light"] .hljs-number,
+[data-theme="light"] .hljs-regexp {
+    font-weight: 700;
+    color: #00f
+}
+
+[data-theme="light"] .hljs-link,
+[data-theme="light"] .hljs-number,
+[data-theme="light"] .hljs-regexp {
+    font-weight: 400
+}
+
+[data-theme="light"] .hljs-string {
+    color: green;
+    font-weight: 700
+}
+
+[data-theme="light"] .hljs-bullet,
+[data-theme="light"] .hljs-formula,
+[data-theme="light"] .hljs-symbol {
+    color: #000;
+    background: #d0eded;
+    font-style: italic
+}
+
+[data-theme="light"] .hljs-doctag {
+    text-decoration: underline
+}
+
+[data-theme="light"] .hljs-template-variable,
+[data-theme="light"] .hljs-variable {
+    color: #660e7a
+}
+
+[data-theme="light"] .hljs-addition {
+    background: #baeeba
+}
+
+[data-theme="light"] .hljs-deletion {
+    background: #ffc8bd
+}
+
+[data-theme="light"] .hljs-emphasis {
+    font-style: italic
+}
+
+[data-theme="light"] .hljs-strong {
+    font-weight: 700
+}
+
+/* Dark theme */
+
+[data-theme="dark"] .hljs-subst,
+[data-theme="dark"] .hljs-tag {
+    color: #f8f8f2
+}
+
+[data-theme="dark"] .hljs-emphasis,
+[data-theme="dark"] .hljs-strong {
+    color: #a8a8a2
+}
+
+[data-theme="dark"] .hljs-bullet,
+[data-theme="dark"] .hljs-link,
+[data-theme="dark"] .hljs-literal,
+[data-theme="dark"] .hljs-number,
+[data-theme="dark"] .hljs-quote,
+[data-theme="dark"] .hljs-regexp {
+    color: #ae81ff
+}
+
+[data-theme="dark"] .hljs-code,
+[data-theme="dark"] .hljs-section,
+[data-theme="dark"] .hljs-selector-class,
+[data-theme="dark"] .hljs-title {
+    color: #a6e22e
+}
+
+[data-theme="dark"] .hljs-strong {
+    font-weight: 700
+}
+
+[data-theme="dark"] .hljs-emphasis {
+    font-style: italic
+}
+
+[data-theme="dark"] .hljs-attr,
+[data-theme="dark"] .hljs-keyword,
+[data-theme="dark"] .hljs-name,
+[data-theme="dark"] .hljs-selector-tag {
+    color: #ff4186
+}
+
+[data-theme="dark"] .hljs-attribute,
+[data-theme="dark"] .hljs-symbol {
+    color: #66d9ef
+}
+
+[data-theme="dark"] .hljs-class .hljs-title,
+[data-theme="dark"] .hljs-params,
+[data-theme="dark"] .hljs-title.class_ {
+    color: #f8f8f2
+}
+
+[data-theme="dark"] .hljs-addition,
+[data-theme="dark"] .hljs-built_in,
+[data-theme="dark"] .hljs-selector-attr,
+[data-theme="dark"] .hljs-selector-id,
+[data-theme="dark"] .hljs-selector-pseudo,
+[data-theme="dark"] .hljs-string,
+[data-theme="dark"] .hljs-template-variable,
+[data-theme="dark"] .hljs-type,
+[data-theme="dark"] .hljs-variable {
+    color: #e6db74
+}
+
+[data-theme="dark"] .hljs-comment,
+[data-theme="dark"] .hljs-deletion,
+[data-theme="dark"] .hljs-meta {
+    color: #999580
+}
